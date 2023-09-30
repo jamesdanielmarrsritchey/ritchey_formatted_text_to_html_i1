@@ -1,0 +1,2 @@
+Bugs:
+- As with most PDFs, copying/pasting the text will cause the last line, and first line to combine. This is a potential problem for ATS-compatibility, unless it the ATS recognizes seperate pages. It can be worked around using padding, so that the combining is applied to extra text, rather than the real content of the document.

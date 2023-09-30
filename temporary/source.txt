@@ -1,0 +1,81 @@
+#Title 1
+
+##Heading 1
+
+Some text.
+
+	this line starts with a tab.
+
+###Heading 2
+
+LABEL 1: This is a label.
+
+Some more text.
+
+####Heading 3
+
+Even more text.
+
+#####Heading 4
+
+a | flat | list | with | no | commas
+
+Some text
+
+//Some commented out text.
+
+Some text.
+ 
+Some text that is separated from the previous text by a " ".
+  
+This is seperated by a previous "  ".
+
+ - LIST LABEL:
+  - A nested list
+ - Another part of the list
+  - Another nested list
+[A tag] | [Another tag] | [Another tag still]
+
+(image_1.png)(image_2.png)(image_3.png)
+
+This line has text followed by an image (image_4.png), and then followed by another (image_1.png).
+
+LABEL: {text to be hyperlinked (/url/to/use/as/hyperlink)} (short: {/short/url (/short/url)})
+
+This is some text {with a link (/url/to/page)} in it.
+
+	This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph. This is a big long paragraph.
+ 
+	This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph. This is another paragraph.
+ 
+This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent. This paragraph has no indent.
+
+-- This is a notice. --
+
+--- This is another notice. ---
+
+---- This is yet another notice. ----
+
+This is some text.
+
+##References
+
+This is a reference. It will automatically be detected as a reference entry, because it's in a section with the heading "References". The headings "Works Cited", or "Citations" will also do this. Each paragraph in this section will be wrapped in a div tag.
+ 
+This is another reference.
+ 
+This is a third reference.
+ 
+While not really supported, the user can inject HTML code, which can be useful for things like <i>italicizing text</i> or making text <b>bold</b>.
+
+##Works Cited
+
+This is a reference. It will automatically be detected as a reference entry, because it's in a section with the heading "References". The headings "Works Cited", or "Citations" will also do this. Each paragraph in this section will be wrapped in a div tag.
+ 
+This is another reference.
+
+##Bibliography
+
+This is a reference. It will automatically be detected as a reference entry, because it's in a section with the heading "References". The headings "Works Cited", or "Citations" will also do this. Each paragraph in this section will be wrapped in a div tag.
+ 
+This is another reference.

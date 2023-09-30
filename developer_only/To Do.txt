@@ -1,0 +1,4 @@
+- Are most pdf-capable ATS able to detect page breaks, or do they combine text when page breaks occur? Currently, this program assumes the latter (as that his what happens in copy/paste tests), and uses a heading/footer to pad each page with ∂ (&#8706;) so that doesn't happen to real content. However, if it's the former, then having the extra symbols in there is not needed.
+- Add support for a title page to be recognized as "index" so it can have unique styles.
+- Rework the code so that it supports processing multi-line, and single line elements. And so that it doesn't use if else. Instead a status code is used to allow the same line, or set of lines to be processed multiple times.
+- Add support for "" as styled quotes in both single-line, and multi-line capacities.

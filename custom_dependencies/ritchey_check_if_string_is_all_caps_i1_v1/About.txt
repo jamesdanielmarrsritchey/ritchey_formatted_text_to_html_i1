@@ -1,0 +1,9 @@
+Name:Ritchey Check If String Is All Caps
+Implementation:1
+Version:1
+Long Identifier:Ritchey Check If String Is All Caps i1 v1
+Short Identifier:RCISIACi1v1
+History:
+ - Project started September 30, 2023
+ - Version 1 completed September 30, 2023
+Author:James Daniel Marrs Ritchey

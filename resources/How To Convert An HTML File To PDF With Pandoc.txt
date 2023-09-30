@@ -1,0 +1,18 @@
+#How To Convert An HTML File To PDF With Pandoc
+
+This tutorial covers how to use Pandoc to convert an HTML file to a PDF. Using Pandoc is not recommended, because it doesn't preserve everything.
+
+##Steps
+###Installing Pandoc On Debian 12
+- In terminal type "sudo apt-get install pandoc texlive-latex-base texlive-latex-recommended".
+
+###Convert HTML to PDF
+- In terminal type "pandoc '/path/to/source.html' -t latex --pdf-engine '/usr/bin/pdflatex' -o '/path/to/destination.pdf'
+
+##Notes
+- This tutorial only covers installation of Pandoc on Debian 12.
+- This tutorial was tested on Debian 12 AMD64 XFCE.
+- This method may not preserve some things during conversion (e.g., fonts).
+
+##Authors
+James Daniel Marrs Ritchey

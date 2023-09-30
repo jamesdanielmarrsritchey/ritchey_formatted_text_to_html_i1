@@ -1,0 +1,17 @@
+#How To Convert An HTML File To PDF With WeasyPrint
+
+This tutorial covers how to use WeasyPrint to convert an HTML file to a PDF.
+
+##Steps
+###Installing WeasyPrint On Debian 12
+- In terminal type "sudo apt-get install weasyprint".
+
+###Convert HTML to PDF
+- In terminal type "weasyprint '/path/to/source.html' '/path/to/destination.pdf'
+
+##Notes
+- This tutorial only covers installation of WeasyPrint on Debian 12.
+- This tutorial was tested on Debian 12 AMD64 XFCE.
+
+##Authors
+James Daniel Marrs Ritchey

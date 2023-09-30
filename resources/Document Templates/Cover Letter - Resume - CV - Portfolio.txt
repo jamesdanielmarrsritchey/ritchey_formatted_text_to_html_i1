@@ -1,0 +1,859 @@
+#Cover Letter
+
+Last Revision: YYYY/MM/DD
+
+##Personal Information
+
+NAME: First M. L.
+RESIDENCE: City, Province, Country
+
+###Contact Information
+
+PHONE NUMBER: 1 (111) 111-1111
+EMAIL ADDRESS: firstml@domain (Preferred)
+
+##
+
+Hello,
+ 
+	This is where the letter paragraphs go.
+ 
+ 
+Regards, 
+ 
+First
+
+#Resume
+
+Last Revision: YYYY/MM/DD
+
+##Personal Information
+
+NAME: First M. L.
+RESIDENCE: City, Province, Country
+
+###Contact Information
+
+PHONE NUMBER: 1 (111) 111-1111
+EMAIL ADDRESS: firstml@domain (Preferred)
+
+###Work Eligibility
+
+CANADA: Yes (Citizen)
+ 
+##Summary & Objective
+
+This is a summary statement.
+
+###Skills
+
+skill | skill | skill | skill | skill | skill | skill | skill | skill | skill
+
+##Links
+
+LINKEDIN: &#x1F517; {https://linkedin.com/ (https://linkedin.com/)} (Short URL: {/s/url (https://linkedin.com/)})
+GITHUB: &#x1F517; {https://github.com/ (https://github.com/)} (Short URL: {/s/url (https://github.com/)})
+
+##Education
+
+#######$degree\$diploma\$certificate
+$school ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x GPA
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+
+#######$x Credits
+$school ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x credits towards $program.
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+
+##Professional Credentials
+
+#######$license
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expires (Expires)
+[licence]
+
+#######$license
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expired (Expired)
+[licence]
+
+#######$certification
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expires (Expiring)
+[certification] | [regulated]
+
+#######$certification
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expired (Expired)
+[certification]
+
+##Further Education
+
+#######$certificate
+$school ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x CEUS (Continuing Education Units)
+ - $x PDUs (Professional Development Units)
+ - $x contact hours
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[Continuing Education] | [Formal Education (Non-Credit)]
+
+#######$x CEUs
+$school ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x CEUs (Continuing Education Units), $x contact hours towards $program.
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[Continuing Education] | [Formal Education (Non-Credit)]
+
+#######$certificate
+$issuer ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x PDUs (Professional Development Units)
+ - $x contact hours
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[NonFormal Education]
+
+#######$x PDUs
+$issuer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x PDUs (Professional Development Units), $x contact hours towards $program.
+ - RELEVANT COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[NonFormal Education]
+
+##Work Experience
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Employee]
+
+#######$job_title
+$self-employed ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Independent Contractor]
+
+-- Unemployed ($start_date - $end_date) for $reason. --
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Employee]
+
+##Internships
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Intern]
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Student Intern]
+
+##Volunteer Experience
+
+#######$role
+$organization ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+
+#######$role
+$organization ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+
+#CV
+
+Last Revision: YYYY/MM/DD
+
+##Personal Information
+
+NAME: First M. L.
+RESIDENCE: City, Province, Country
+
+###Contact Information
+
+PHONE NUMBER: 1 (111) 111-1111
+EMAIL ADDRESS: firstml@domain (Preferred)
+
+###Work Eligibility
+
+CANADA: Yes (Citizen)
+
+##Summary & Objective
+
+This is a summary statement.
+
+###Skills
+
+skill | skill | skill | skill | skill | skill | skill | skill | skill | skill
+
+##Links
+
+LINKEDIN: &#x1F517; {https://linkedin.com/ (https://linkedin.com/)} (Short URL: {/s/url (https://linkedin.com/)})
+GITHUB: &#x1F517; {https://github.com/ (https://github.com/)} (Short URL: {/s/url (https://github.com/)})
+
+##Education
+
+#######$degree\$diploma\$certificate
+$school ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x GPA
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+
+#######$x Credits
+$school ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x credits towards $program.
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x credits
+   - $description
+
+##Professional Credentials
+
+#######$license
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expires (Expires)
+[licence]
+
+#######$license
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expired (Expired)
+[licence]
+
+#######$certification
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expires (Expiring)
+[certification] | [regulated]
+
+#######$certification
+$issuer ($city, $province, $country)
+$date_issued (Issued) - $date_expired (Expired)
+[certification]
+
+##Further Education
+
+#######$certificate
+$school ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x CEUS (Continuing Education Units)
+ - $x PDUs (Professional Development Units)
+ - $x contact hours
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[Continuing Education] | [Formal Education (Non-Credit)]
+
+#######$x CEUs
+$school ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x CEUs (Continuing Education Units), $x contact hours towards $program.
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x CEUS (Continuing Education Units)
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[Continuing Education] | [Formal Education (Non-Credit)]
+
+#######$certificate
+$issuer ($city, $province, $country)
+$date_issued
+ 
+ - $start_date - $end_date
+ - $x PDUs (Professional Development Units)
+ - $x contact hours
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[NonFormal Education]
+
+#######$x PDUs
+$issuer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Completed $x PDUs (Professional Development Units), $x contact hours towards $program.
+ - COURSES:
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+  - $course
+   - $start_date - $end_date
+   - $x PDUs (Professional Development Units)
+   - $x contact hours
+   - $description
+[NonFormal Education]
+
+##Work Experience
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Employee]
+ 
+#######$job_title
+$self-employed ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Independent Contractor]
+
+-- Unemployed ($start_date - $end_date) for $reason. --
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Employee]
+
+##Internships
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Intern]
+
+#######$job_title
+$employer ($city, $province, $country)
+$start_date - $end_date
+ 
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACCOMPLISHMENTS:
+  - $accomplishment
+  - $accomplishment
+[Student Intern]
+
+##Volunteer Experience
+
+#######$role
+$organization ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+
+#######$role
+$organization ($city, $province, $country)
+$start_date - $end_date
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+
+#Portfolio
+
+Last Revision: YYYY/MM/DD
+
+##Personal Information
+
+NAME: First M. L.
+RESIDENCE: City, Province, Country
+
+###Contact Information
+
+PHONE NUMBER: 1 (111) 111-1111
+EMAIL ADDRESS: firstml@domain (Preferred)
+
+###Work Eligibility
+
+CANADA: Yes (Citizen)
+ 
+##Overview
+
+This is an introductory statement.
+
+###Skills
+
+skill | skill | skill | skill | skill | skill | skill | skill | skill | skill
+
+##Links
+
+LINKEDIN: &#x1F517; {https://linkedin.com/ (https://linkedin.com/)} (Short URL: {/s/url (https://linkedin.com/)})
+GITHUB: &#x1F517; {https://github.com/ (https://github.com/)} (Short URL: {/s/url (https://github.com/)})
+ 
+##Artwork
+
+#######Piece Title
+$start_date - $completion_date
+ 
+(image_1.png)
+ 
+A description of the project.
+ 
+ - Sold on $date for $price
+ - TOOLS USED:
+  - $tool
+  - $tool
+  - $tool
+ - TECNIQUES APPLIED:
+  - $technique
+  - $technique
+  - $technique
+
+##Software Development
+
+#######Piece Title
+$start_date - $completion_date
+ 
+(image_2.png)
+ 
+A description of the project.
+ 
+ - $number downloads (as of Date)
+ - $number sales (as of Date)
+ - TOOLS USED:
+  - $tool
+  - $tool
+  - $tool
+ - LANGUAGES USED:
+  - $technique
+  - $technique
+  - $technique
+
+##Humanitarian Projects
+
+#######Project Title
+$organization/Self-Directed
+$start_date - $end_date
+ 
+(image_3.png)
+ 
+A description of the project.
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACHIEVEMENTS:
+  - $achievement
+  - $achievement
+
+##Community Service Projects
+
+#######Title
+$organization/Self-Directed
+$start_date - $end_date
+ 
+(image_3.png)
+ 
+A description of the project.
+ 
+ - Total Hours: $hours
+ - DUTIES:
+  - $duty
+  - $duty
+ - ACHIEVEMENTS:
+  - $achievement
+  - $achievement
+
+##Activism
+
+#######Event
+$date
+ 
+(image_3.png)
+ 
+A description of the event.
+ 
+ - Total Hours: $hours
+
+##Travel
+
+#######Trip Title
+Date Started - Date Ended
+ 
+(image_4.png)
+ 
+A description of the trip.
+ 
+ - Duration: $days
+ - LOCATIONS:
+  - $location
+  - $location
+  - $location
+ - TRANSPORTATION METHODS:
+  - $method
+  - $method
+  - $method
+
+##Publications
+
+#######Title
+$publication_date
+ 
+A description of the publication.
+ 
+ - Project Started: $date_started
+ - Project Completed: $date_completed
+
+##Patents
+
+#######Title
+$date_granted - $date_ends
+ 
+A description of the patent.
+ 
+ - Project Started: $date_started
+ - Project Completed: $date_completed
+ - Patent Filed: $date_filed
+
+#Appendix
+
+##Glossary of Terms, Abbreviations, and Acronyms
+
+#######Badge
+
+	In education, a badge (also referred to as a digital badge) is a digital record of academic achievement, which denotes the completion of an educational program, course, or exercise by a student. Badges are designed to be shared, and may also support being embedded into other pages.
+
+#######Career Portfolio
+
+	A career portfolio is a portfolio constructed for showcasing one's abilities to employers.
+
+#######Certificate
+
+	In education, a certificate is a record of academic achievement, in the form of a document, which denotes the completion of an educational program, or course by a student.
+
+#######Certification
+
+	A certification is a record, typically in the form of a document, of being certified as competent in a particular act, or skillset. When an organization certifies a someone, it means they are vouching for that person's abilities. Certifications are usually awarded upon the completion of a test, or hands-on evaluation. However, some organizations will also provide a complete non-formal educational program to prepare students first. Some professions require certification, meaning the professional must hold certain certifications, by law, to perform that work. The term certificate is sometimes used interchangeably with certification, but certificates do not expire, as they are record of academic accomplishemnt. A certification does expire, after a set amount of time.
+
+#######C.E.U.
+
+	A C.E.U. (Continuing Education Unit) is a measure of work applied to continuing education courses. It is similar to credit hours.
+
+#######Continuing Education
+
+	Continuing Education is non-credit (meaning it does not count towards a degree program) formal post-secondary education. The term is commonly used in Canada, and the United States. Continuing education is a form of professional development.
+
+#######C.P.D.
+
+	C.P.D. (Continuing Professional Development) is non-formal post-secondary education. The term is commonly used in the U.K.
+
+#######Cover Letter
+
+	A cover letter is an introductory letter, traditionally sent with a resume. In the past, when dropping off resumes in-person was the norm, cover letters were standard to include. Nowadays, a cover letter is typically only provided if it is explicitly requested.
+
+#######Credit
+
+	In education, credit (also called academic credit) is a measure of time (referred to as credit hours) applied to course work. In for-credit formal education programs, each course is assigned a certain number of credits, and the program as a whole will require the student to complete a certain number of credit hours.
+
+#######C.V.
+
+	In Canada, a C.V. (Curriculum Vitae) is a document which provides an indepth account of one's professional qualifications. However, in some countries, where the term resume is uncommon, a C.V. refers to a document which provides a concise selective account of one's professional qualifications. In Canada, most job applications expect a resume, but C.V.s are used in some very specific instances.
+
+#######Degree
+
+	In education, a degree is a record of academic achievement, in the form of a document, which denotes the completion of an educational program. Degree programs are longer than certificate programs.
+
+#######Education
+
+	Education is an intentional learning process. There are several types of education including: formal education, non-formal education, and informal education. Formal education is education which occurs in schools. On a resume, or a C.V. there is typically a section for listing education. It is typically titled "Education". This section is primarily used for listing formal education, but can be used for other types as well.
+
+#######Employee
+
+	An employee is person who works for a company, under contract. They are required to perform work as instructed.
+
+#######Freelancer
+
+	A freelancer is an independent contractor typically hired for projects that take little time to complete.
+
+#######Further Education
+
+	Further Education is non-credit (meaning it does not count towards a degree program) formal post-secondary education, and non-formal post-secondary education. The term further education is commonly used in the U.K.
+
+#######Independent Contractor
+
+	An independent contractor is a person who is self-employed, but does tasks for companies, or persons, under contract. They may have multiple clients at a time, and a free to perform work in the manner they see fit.
+
+#######Intern
+
+	In Canada, an intern is a non-employee member of a workplace, who is there to learn. They must still be paid at least minimum wage.
+
+#######Licence
+
+	In Canada, a licence is a legal grant of permission to perform certain acts. Some professions require licensure, meaning the employee must hold certain licences. The American spelling "license" is often used instead.
+
+#######License
+
+	In the United States of America, a license is a legal grant of permission to perform certain acts. Some professions require licensure, meaning the employee must hold certain licenses.
+
+#######M.O.O.C.
+
+	A M.O.O.C. (Massive Open Online Course) is an online course that is self-paced, and has no student limit. Generally M.O.O.C.s are non-formal education.
+
+#######P.D.U.
+
+	A P.D.U. (Professional Development Unit) is a measure of work applied to professional development courses. It is similar to credit hours.
+
+#######Portfolio
+
+	A portfolio is a collection of a person's completed works, awards, and relevant documents, used for assessment of their abilities. A career portfolio is a portfolio constructed for showcasing one's abilities to employers.
+
+#######Professional Development
+
+	Professional development is non-credit (meaning it does not count towards a degree program) formal post-secondary education, non-formal post-secondary education, and other activities undertaken to improve one's professional abilities (e.g., attending conferences). One of the most common forms of professional development is online non-formal education courses, offered as M.O.O.C.s.
+
+#######Resume
+
+	A resume is a document which provides a concise selective account of one's professional qualifications. It is generally 1-2 pages long, but can be longer for more well qualified persons.
+
+#######Student Intern
+
+	In Canada, a student intern is a non-employee member of a workplace, who is there to learn. Unless they are under the age of 18, they must be doing the internship as part of an educational program offered by a school. They are not required to be paid.
+
+#######Volunteer
+
+	A volunteer is someone who willingly labours for free at an organization, for the betterment of humanity.
+
+#Legal
+
+##Licensing
+
+Copyright 2023 &copy; $name. This document is comprised of elements under multiple licenses.
+
+###Default
+
+Except where otherwise stated, elements of this document are licensed under the Ritchey Permissive License v15 license.
+
+#######Ritchey Permissive License V15
+
+Subject to the terms of this license, any legal entity who receives material licensed under this license is granted royalty-free, perpetual, non-exclusive permission to do anything with the material which does not violate any part of this license.
+
+Permissions granted apply to any expressions of concepts within the material, but not the concepts themselves (such as those protected by patents).
+
+Permissions granted do not extend to trademarks in the material. If sharing the material verbatim can be done otherwise in compliance with this license it is permitted even with trademarks present.
+
+This license is automatically revoked permanently from the legal entity upon breach of the license terms.
+
+The material is provided "AS IS", without any warranties, guarantees, or representations. No promises are made of fitness for any particular purpose, suitability for merchantability, non infringement, accuracy, or absence of mistakes. Any use of the material is done at the legal entity's own risk.
+
+In the event of legal action, in relation to the material, the maximum compensation to any party is nothing.
+
+When sharing the material, the legal entity is solely responsible for any consequences, and any withstanding obligations to the recipient (including: non disclaimed warranties, non disclaimed guarantees, any representations made).
+
+The material must remain solely licensed under this license.
+
+This license is governed by the laws of the province of British Columbia (as they were on April 21, 2019), and the applicable laws of Canada (as they were on April 21, 2019). Any legal proceedings related to this license may only occur in the courts of British Columbia, or Federal Court of Canada. Any legal proceedings related to the material may only occur in the courts of British Columbia, or Federal Court of Canada.
+
+The legal entity must be capable of being bound to this entire license.
+
+By accepting the license the legal entity agrees to be bound to the entire license.
+
+If any portion of this license is known by the legal entity to have been previously deemed unenforceable, by a court of law, in any applicable jurisdiction, the legal entity cannot accept this license. The legal entity must make an effort to determine this before accepting this license.
+
+If any portions of this license contradict the later portion shall overrule the previous.
+
+The license text is provided under these terms.
+
+###Personal Information
+
+Personal information within this document is licensed under the Ritchey Job-Applicant Documents License v1 license.
+
+#######Ritchey Job-Applicant Documents License v1
+
+Subject to the terms of this license, any legal entity who receives a document licensed under this license is granted royalty-free, temporary, non-exclusive permission to internally use, and internally distribute the personal information contained within, when vital to the job hiring process. 
+
+The original document, as well as all copies of the personal information, must be destroyed within 30 days of when the subject of the document is no longer involved the hiring process. 
+
+Retaining this document after becoming aware of these terms constitutes agreement to this license, unless it was legally recieved under different licensing terms.
+
+###Fonts
+
+Fonts used in this document are licensed under the $license license.
+
+#######$license
+
+$license_terms

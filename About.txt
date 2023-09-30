@@ -1,0 +1,29 @@
+Name:Ritchey Formatted Text To HTML
+Implementation:1
+Version:16
+Long Identifier:Ritchey Formatted Text To HTML i1 v16
+Short Identifier:RFTTHi1v16
+Description:Ritchey Formatted Text To HTML is a user-defined PHP function, which takes a plain-text file, which is written formatted to meet the custom specifications of this function, and converts it to an HTML file. The principle behind the formatting is that the plain-text document is readable/usable as is, but can be beautified when converted. The HTML document is not designed with intent of being served online (it can be, but isn't optomized for it), but rather with the intent of being converted (by third-party tools) to PDF format. The tool was built originally for creating resumes, but has been genericized since.
+History:
+ - Project started February 5, 2023.
+ - Version 1 completed February 9, 2023.
+ - Version 2 completed February 12, 2023.
+ - Version 3 completed February 14, 2023.
+ - Version 4 completed February 16, 2023.
+ - Version 5 completed February 16, 2023.
+ - Version 6 completed February 17, 2023.
+ - Version 7 completed February 18, 2023.
+ - Version 8 completed April 8, 2023.
+ - Version 9 completed April 9, 2023.
+ - Version 10 completed July 12, 2023.
+ - Version 11 completed July 13, 2023.
+ - Version 12 completed July 16, 2023.
+ - Version 13 completed July 16, 2023.
+ - Version 14 completed August 4, 2023.
+ - Version 15 completed August 4, 2023.
+ - Version 16 completed September 30, 2023.
+Author:James Daniel Marrs Ritchey
+License:Ritchey Permissive License v15
+Notes:
+ - Injecting HTML into the plain-text to achieve additional formatting isn't supported, and goes against the objective of keeping the plain-text reader friendly. However, in some cases it does work. Use of <i>italics</i> and <b>bold</b> works as of version 16.
+ - The classes "page_heading1" and "page_footer1" are used to pad page-breaks, for the purpose of working around the text-combining issue common in PDF documents. If you don't need this, use "display: none" in your CSS sheet.

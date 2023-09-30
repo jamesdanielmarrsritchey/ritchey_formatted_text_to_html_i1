@@ -1,0 +1,255 @@
+/* Serif */
+ 
+body {
+	font-family: serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+/* Noto Serif. Source: https://fonts.google.com/noto/specimen/Noto+Serif/about */
+/*
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body {
+	font-family: 'Noto Serif', serif; 
+}
+*/
+
+/* Sans-serif */
+/* 
+body {
+	font-family: sans-serif; 
+}
+*/
+
+/* Noto Sans-Serif. Source: https://fonts.google.com/noto/specimen/Noto+Sans/about */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap');
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+*/
+
+/* Inclusive Sans. Source: https://fonts.google.com/specimen/Inclusive+Sans/about */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+body {
+	font-family: 'Inclusive Sans', sans-serif;
+}
+*/
+
+.page_heading1 {
+	display: none;
+}
+
+.page_footer1 {
+	display: none;
+}
+
+a:link {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:visited {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #072cf0;
+  text-decoration: underline;
+}
+a:active {
+  color: #072cf0;
+  text-decoration: underline;
+}
+
+.tab {
+	min-width: 0.5in;
+	display: inline-block;
+}
+
+.text_warning {
+	color: #fd0000;
+	font-weight: bold;
+	display: inline;
+}
+.text_caution {
+	color: #ff8300;
+	display: inline;
+}
+.text_good {
+	color: #22c600;
+	display: inline;
+}
+.text_preferred {
+	color: #d54ac6;
+	display: inline;
+}
+
+
+.label_1 {
+	display: block;
+}
+.label_1_name {
+	display: inline-block;
+	font-weight: bold;
+}
+.label_1_indicator {
+  display: inline-block;
+  font-weight: bold;
+}
+.label_1_value {
+	display: inline-block;
+}
+
+.label_2 {
+	display: inline-block;
+}
+.label_2_name {
+	display: inline-block;
+	text-decoration: underline;
+}
+.label_2_indicator {
+  display: inline-block;
+}
+
+
+
+.section_outter_title {
+	padding: 15px;
+}
+.section_inner_title {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 2vw;
+}
+.title {
+	font-size: 4vw;
+}
+
+.section_outter {
+	background-color: #FFFFFF;
+	margin: 0px;
+	margin-top: 50px;
+	padding: 0px;
+}
+.section_inner {
+	max-width: 90%;
+	min-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+#section_outter_ {
+	margin-top: 0px;
+}
+
+#heading_1_ {
+	display: none;
+}
+
+.flat_list {
+	display: block;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0px;
+}
+
+.flat_list_item_important {
+	border-bottom-color: #666666;
+	border-bottom-width: 4px;
+	border-bottom-style: double;
+	margin-right: 8px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+.flat_list_item {
+	border-bottom-color: #888888;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.dot_list_0_item_indicator {
+	display: inline-block;
+	padding-right: 2px;
+}
+.dot_list_0_item {
+	margin-left: 16px;
+}
+.dot_list_1_item_indicator {
+	display: inline-block;
+	padding-right: 2px;
+}
+.dot_list_1_item {
+	margin-left: 32px;
+}
+.dot_list_2_item_indicator {
+	display: inline-block;
+	padding-right: 2px;
+}
+.dot_list_2_item {
+	margin-left: 48px;
+}
+.dot_list_3_item_indicator {
+	display: inline-block;
+	padding-right: 2px;
+}
+.dot_list_3_item {
+	margin-left: 64px;
+}
+.dot_list_4_item_indicator {
+	display: inline-block;
+	padding-right: 2px;
+}
+.dot_list_4_item {
+	margin-left: 80px;
+}
+
+.tags {
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0px;
+}
+.tags::before {
+    content: 'Tags: ';
+}
+.tags_item {
+	font-size: 16px;
+	color: #515151;
+	font-weight: normal;
+	display: inline-block;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: #EEEEEE;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.image_1 {
+	height: auto;
+	display: block;
+	max-height: 100vh;
+	min-width: 66%;
+	max-width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
