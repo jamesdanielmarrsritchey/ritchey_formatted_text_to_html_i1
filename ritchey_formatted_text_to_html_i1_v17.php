@@ -1,13 +1,13 @@
 <?php
-#Name:Ritchey Formatted Text To HTML i1 v16
+#Name:Ritchey Formatted Text To HTML i1 v17
 #Description:Convert text (written using the custom formatting defined in this document) to HTML. Returns "TRUE" on success. Returns "FALSE" on failure.
 #Notes:Optional arguments can be "NULL" to skip them in which case they will use default values.
 #Arguments:'source' (required) is the file to read from. 'destination' (required) the path of where to write the HTML file. 'theme_file' (optional) is a path to a css file import into the HTML. 'flat_list_important' (optional) is a number indicating how many items in a flat list should be identified as important. 'display_errors' (optional) indicates if errors should be displayed.
 #Arguments (Script Friendly):source:file:required,destination:file:required,theme_file:file:optional,flat_list_important:number:optional,display_errors:bool:optional
 #Content:
 #<value>
-if (function_exists('ritchey_formatted_text_to_html_i1_v16') === FALSE){
-function ritchey_formatted_text_to_html_i1_v16($source, $destination, $theme_file = NULL, $flat_list_important = NULL, $display_errors = NULL){
+if (function_exists('ritchey_formatted_text_to_html_i1_v17') === FALSE){
+function ritchey_formatted_text_to_html_i1_v17($source, $destination, $theme_file = NULL, $flat_list_important = NULL, $display_errors = NULL){
 	$errors = array();
 	$location = realpath(dirname(__FILE__));
 	if (@is_file($source) === FALSE){
@@ -409,12 +409,12 @@ HEREDOC;
 	if ($display_errors === TRUE){
 		if (@empty($errors) === FALSE){
 			$message = @implode(", ", $errors);
-			if (function_exists('ritchey_formatted_text_to_html_i1_v16_format_error') === FALSE){
-				function ritchey_formatted_text_to_html_i1_v16_format_error($errno, $errstr){
+			if (function_exists('ritchey_formatted_text_to_html_i1_v17_format_error') === FALSE){
+				function ritchey_formatted_text_to_html_i1_v17_format_error($errno, $errstr){
 					echo $errstr;
 				}
 			}
-			set_error_handler("ritchey_formatted_text_to_html_i1_v16_format_error");
+			set_error_handler("ritchey_formatted_text_to_html_i1_v17_format_error");
 			trigger_error($message, E_USER_ERROR);
 		}
 	}
