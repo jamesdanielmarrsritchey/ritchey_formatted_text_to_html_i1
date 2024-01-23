@@ -1,13 +1,13 @@
 <?php
-#Name:Ritchey Formatted Text To HTML i1 v17
+#Name:Ritchey Formatted Text To HTML i1 v18
 #Description:Convert text (written using the custom formatting defined in this document) to HTML. Returns "TRUE" on success. Returns "FALSE" on failure.
 #Notes:Optional arguments can be "NULL" to skip them in which case they will use default values.
 #Arguments:'source' (required) is the file to read from. 'destination' (required) the path of where to write the HTML file. 'theme_file' (optional) is a path to a css file import into the HTML. 'flat_list_important' (optional) is a number indicating how many items in a flat list should be identified as important. 'display_errors' (optional) indicates if errors should be displayed.
 #Arguments (Script Friendly):source:file:required,destination:file:required,theme_file:file:optional,flat_list_important:number:optional,display_errors:bool:optional
 #Content:
 #<value>
-if (function_exists('ritchey_formatted_text_to_html_i1_v17') === FALSE){
-function ritchey_formatted_text_to_html_i1_v17($source, $destination, $theme_file = NULL, $flat_list_important = NULL, $display_errors = NULL){
+if (function_exists('ritchey_formatted_text_to_html_i1_v18') === FALSE){
+function ritchey_formatted_text_to_html_i1_v18($source, $destination, $theme_file = NULL, $flat_list_important = NULL, $display_errors = NULL){
 	$errors = array();
 	$location = realpath(dirname(__FILE__));
 	if (@is_file($source) === FALSE){
@@ -224,10 +224,16 @@ function ritchey_formatted_text_to_html_i1_v17($source, $destination, $theme_fil
 					$item2 = "<ul class=\"tags\">" . PHP_EOL . implode($item2) . "</ul>";
 				}
 				#####Replace label with Div. A label is a string of capitalized text as the start of a line that ends with a colon which is followed by more content (e.g., "LABEL: value").
-				else if (is_int(strpos($item2, ':')) === TRUE AND ctype_upper(preg_replace("/[^[:alpha:]]/", "", substr($item2, 0, strpos($item2, ':')))) === TRUE AND is_int(strpos($item2, '- ')) !== TRUE){
+				else if (is_int(strpos($item2, ': ')) === TRUE AND ctype_upper(preg_replace("/[^[:alpha:]]/", "", substr($item2, 0, strpos($item2, ':')))) === TRUE AND is_int(strpos($item2, '- ')) !== TRUE){
 					$start = strpos($item2, ':');
 					$start2 = $start + 1;
 					$item2 = "<div class=\"label_1\">" . PHP_EOL . "<div class=\"label_1_name\">" . ucwords(strtolower(substr($item2, 0, $start))) . "</div>" . "<div class=\"label_1_indicator\">:&nbsp;</div>" . "<div class=\"label_1_value\">" . substr($item2, $start2) . "</div>" . PHP_EOL . "</div>";
+				}
+				#####Replace label with Div. A label is a string of capitalized text as the start of a line that ends with a colon (e.g., "LABEL:").
+				else if (is_int(strpos($item2, ':')) === TRUE AND ctype_upper(preg_replace("/[^[:alpha:]]/", "", substr($item2, 0, strpos($item2, ':')))) === TRUE AND is_int(strpos($item2, '- ')) !== TRUE){
+					$start = strpos($item2, ':');
+					$start2 = $start + 1;
+					$item2 = "<div class=\"label_3\">" . PHP_EOL . "<div class=\"label_3_name\">" . ucwords(strtolower(substr($item2, 0, $start))) . "</div>" . "<div class=\"label_3_indicator\">:&nbsp;</div>" . "<div class=\"label_3_value\">" . substr($item2, $start2) . "</div>" . PHP_EOL . "</div>";
 				}
 				#####If not an element, and doesn't contain a br tag, but is in a section titled "References" wrap as a paragraph with a special class.
 				else if (is_int(strpos($item2, '<br class=')) !== TRUE AND $segment_name === 'references') {
@@ -325,8 +331,47 @@ function ritchey_formatted_text_to_html_i1_v17($source, $destination, $theme_fil
 					unset($item6);
 					$item2 = implode($item2);
 				}
-				#####Replace dot list label with Div. A label is a string of capitalized text as the start of a dot list line that ends with a colon (e.g., " - LABEL: value").
-				if (is_int(strpos($item2, ':')) === TRUE AND is_int(strpos($item2, 'dot_list')) === TRUE){
+				#####Replace JPG images with base64 encoded image. Images are a path wrapped in "()". Alternatively, if no path is specified, it will assume the image is in the same place as the source text. There can be multiple images in a line. There can be other content in the line.
+				if (is_int(strpos($item2, '.jpg')) === TRUE AND is_int(strpos($item2, '(')) === TRUE AND strpos($item2, '{') === FALSE){
+					$item2 = str_replace(".jpg)", ".jpg)|", $item2);
+					$item2 = explode('|', $item2);
+					foreach ($item2 as &$item6){
+						if (is_int(strpos($item6, '.jpg')) === TRUE){
+							//Get start
+							@preg_match('/\(.*.jpg\)/', $item6, $matches, PREG_OFFSET_CAPTURE);
+							if (@empty($matches) === TRUE){
+								$start = 0;
+							} else {
+								$start = $matches[0][1];
+							}
+							//Get end
+							$end = @strpos($item6, '.jpg)');
+							$end = $end + 5;
+							$length = $end - $start;
+							//import the image data to a variable and convert to base64
+							$image_path = substr($item6, $start, $length);
+							$image_path = substr($image_path, 1, -1);
+							if (is_int(strpos($image_path, '/')) !== TRUE){
+								$image_path = dirname($source) . '/' . $image_path;
+							}
+							if (is_file($image_path) === TRUE){
+								//get first part
+								$part1 = substr($item6, 0, $start);
+								//replace middle
+								$image_data = base64_encode(file_get_contents($image_path));
+								$part2 = "<img class=\"image_1\" src=\"data:image/jpeg;charset=utf-8;base64,{$image_data}\">";
+								//get end
+								$part3 = substr($item6, $end);
+								//combine parts
+								$item6 = $part1 . $part2 . $part3;
+							}
+						}	
+					}
+					unset($item6);
+					$item2 = implode($item2);
+				}
+				#####Replace dot list label with Div. A label is a string of capitalized text as the start of a dot list line that ends with a colon (e.g., " - LABEL:").
+				if (is_int(strpos($item2, ':')) === TRUE AND is_int(strpos($item2, 'dot_list')) === TRUE AND is_int(strpos($item2, ': ')) === FALSE){
 					$start = strpos($item2, '&#x2022; </div>') + 15;
 					$end = strpos($item2, ':');
 					$start_2 = $end + 1;
@@ -409,12 +454,12 @@ HEREDOC;
 	if ($display_errors === TRUE){
 		if (@empty($errors) === FALSE){
 			$message = @implode(", ", $errors);
-			if (function_exists('ritchey_formatted_text_to_html_i1_v17_format_error') === FALSE){
-				function ritchey_formatted_text_to_html_i1_v17_format_error($errno, $errstr){
+			if (function_exists('ritchey_formatted_text_to_html_i1_v18_format_error') === FALSE){
+				function ritchey_formatted_text_to_html_i1_v18_format_error($errno, $errstr){
 					echo $errstr;
 				}
 			}
-			set_error_handler("ritchey_formatted_text_to_html_i1_v17_format_error");
+			set_error_handler("ritchey_formatted_text_to_html_i1_v18_format_error");
 			trigger_error($message, E_USER_ERROR);
 		}
 	}

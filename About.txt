@@ -1,8 +1,8 @@
 Name:Ritchey Formatted Text To HTML
 Implementation:1
-Version:17
-Long Identifier:Ritchey Formatted Text To HTML i1 v17
-Short Identifier:RFTTHi1v17
+Version:18
+Long Identifier:Ritchey Formatted Text To HTML i1 v18
+Short Identifier:RFTTHi1v18
 Description:Ritchey Formatted Text To HTML is a user-defined PHP function, which takes a plain-text file, which is written formatted to meet the custom specifications of this function, and converts it to an HTML file. The principle behind the formatting is that the plain-text document is readable/usable as is, but can be beautified when converted. The HTML document is not designed with intent of being served online (it can be, but isn't optomized for it), but rather with the intent of being converted (by third-party tools) to PDF format. The tool was built originally for creating resumes, but has been genericized since.
 History:
  - Project started February 5, 2023.
@@ -23,6 +23,7 @@ History:
  - Version 15 completed August 4, 2023.
  - Version 16 completed September 30, 2023.
  - Version 17 completed January 20, 2024.
+ - Version 18 completed January 23, 2024.
 Author:James Daniel Marrs Ritchey
 License:Ritchey Permissive License v16
 Notes:

@@ -1,3 +1,12 @@
+#Index
+
+- Cover Letter
+- Resume
+- CV
+- Portfolio
+- Appendix
+- Legal
+ 
 #Cover Letter
 
 Last Revision: YYYY/MM/DD
@@ -109,88 +118,57 @@ $issuer ($city, $province, $country)
 $date_issued (Issued) - $date_expired (Expired)
 [certification]
 
-##Further Education
+##Professional Development
 
-#######$certificate
-$school ($city, $province, $country)
-$date_issued
+Completed $x professional development courses, and $x programs from providers such as: $provider, $provider, $provider, $provider, $provider.
  
- - $start_date - $end_date
- - $x CEUS (Continuing Education Units)
- - $x PDUs (Professional Development Units)
- - $x contact hours
- - RELEVANT COURSES:
-  - $course
-   - $start_date - $end_date
-   - $x CEUS (Continuing Education Units)
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
-  - $course
-   - $start_date - $end_date
-   - $x CEUS (Continuing Education Units)
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
+####Relevant Programs Include:
+ - $certificate
+  - $school ($city, $province, $country)
+  - $date_issued
+  - $start_date - $end_date
+  - $description
+  - $x CEUS (Continuing Education Units)
+  - $x PDUs (Professional Development Units)
+  - $x contact hours
 [Continuing Education] | [Formal Education (Non-Credit)]
-
-#######$x CEUs
-$school ($city, $province, $country)
-$start_date - $end_date
+ - $diploma
+  - $school ($city, $province, $country)
+  - $date_issued
+  - $start_date - $end_date
+  - $description
+  - $x CEUS (Continuing Education Units)
+  - $x PDUs (Professional Development Units)
+  - $x contact hours
+[NonFormal Education]
  
- - Completed $x CEUs (Continuing Education Units), $x contact hours towards $program.
- - RELEVANT COURSES:
-  - $course
-   - $start_date - $end_date
-   - $x CEUS (Continuing Education Units)
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
-  - $course
-   - $start_date - $end_date
-   - $x CEUS (Continuing Education Units)
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
+####Relevant Courses Include:
+ - $course
+  - $school ($city, $province, $country)
+  - $start_date - $end_date
+  - $description
+  - $x CEUS (Continuing Education Units)
+  - $x PDUs (Professional Development Units)
+  - $x contact hours
 [Continuing Education] | [Formal Education (Non-Credit)]
-
-#######$certificate
-$issuer ($city, $province, $country)
-$date_issued
- 
- - $start_date - $end_date
- - $x PDUs (Professional Development Units)
- - $x contact hours
- - RELEVANT COURSES:
-  - $course
-   - $start_date - $end_date
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
-  - $course
-   - $start_date - $end_date
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
+ - $course
+  - $school ($city, $province, $country)
+  - $start_date - $end_date
+  - $description
+  - $x CEUS (Continuing Education Units)
+  - $x PDUs (Professional Development Units)
+  - $x contact hours
 [NonFormal Education]
-
-#######$x PDUs
-$issuer ($city, $province, $country)
-$start_date - $end_date
  
- - Completed $x PDUs (Professional Development Units), $x contact hours towards $program.
- - RELEVANT COURSES:
-  - $course
-   - $start_date - $end_date
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
-  - $course
-   - $start_date - $end_date
-   - $x PDUs (Professional Development Units)
-   - $x contact hours
-   - $description
-[NonFormal Education]
+Spoke at $x conferences.
+
+####Relevant Conferences Include:
+ - $conference
+  - $date(s)
+  - $topic description
+ - $conference
+  - $date(s)
+  - $topic description
 
 ##Work Experience
 
@@ -546,10 +524,6 @@ RESIDENCE: City, Province, Country
 
 PHONE NUMBER: 1 (111) 111-1111
 EMAIL ADDRESS: firstml@domain (Preferred)
-
-###Work Eligibility
-
-CANADA: Yes (Citizen)
  
 ##Overview
 
@@ -569,7 +543,7 @@ GITHUB: &#x1F517; {https://github.com/ (https://github.com/)} (Short URL: {/s/ur
 #######Piece Title
 $start_date - $completion_date
  
-(image_1.png)
+(image_1.jpg)
  
 A description of the project.
  
@@ -806,7 +780,7 @@ Copyright 2023 &copy; $name. This document is comprised of elements under multip
 
 ###Default
 
-Except where otherwise stated, elements of this document are licensed under the Ritchey Permissive License v15 license.
+Except where otherwise stated, elements of this document are licensed under the Ritchey Permissive License v16 license.
 
 #######Ritchey Permissive License V16
 
@@ -858,15 +832,19 @@ The License Author isn't a party to the licensing agreement between the Licensor
 
 ###Personal Information
 
-Personal information within this document is licensed under the Ritchey Job-Applicant Documents License v1 license.
+Personal information within this document is licensed under the Ritchey Sensitive Data License v2 license.
 
-#######Ritchey Job-Applicant Documents License v1
+###Images
 
-Subject to the terms of this license, any legal entity who receives a document licensed under this license is granted royalty-free, temporary, non-exclusive permission to internally use, and internally distribute the personal information contained within, when vital to the job hiring process. 
+Images within this document are licensed under the Ritchey Sensitive Data License v2 license.
 
-The original document, as well as all copies of the personal information, must be destroyed within 30 days of when the subject of the document is no longer involved the hiring process. 
+#######Ritchey Sensitive Data License v2
 
-Retaining this document after becoming aware of these terms constitutes agreement to this license, unless it was legally recieved under different licensing terms.
+Subject to the terms of this license, any legal entity who receives material licensed under this license, from a job applicant, is granted royalty-free, temporary, non-exclusive permission to internally use, and internally distribute the material, where it is vital to the hiring process.
+
+The material, as well as all copies made of it, must be destroyed within 30 days of when the job applicant is no longer involved the hiring process.
+
+Retaining the material after becoming aware of these terms constitutes agreement to this license.
 
 ###Fonts
 
